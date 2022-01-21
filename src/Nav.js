@@ -14,6 +14,7 @@ function Nav() {
       window.removeEventListener('scroll');
     };
   }, []);
+
   return (
     <div className={`nav ${show && 'nav__black'}`}>
       <img
@@ -25,7 +26,7 @@ function Nav() {
       <img
         className="nav__avatar"
         src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
-        alt="Netflix Logo"
+        alt="Netflix Avatar"
       />
     </div>
   );
